@@ -1,0 +1,19 @@
+#+TITLE: LEsheepWeight
+
+* Install
+Please check [[https://mmpose.readthedocs.io/en/latest/install.html#installation][Open MMLab mmpose installation]]
+
+* Train
+
+#+begin_src bash
+python tools/train.py \
+    configs/${config}.py \
+#+end_src
+
+* Eval
+
+#+begin_src bash
+python tools/test.py \
+        configs/${config}.py
+        checkpoints/pretrained_model.pth
+#+end_src
