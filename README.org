@@ -17,3 +17,6 @@ python tools/test.py \
         configs/${config}.py
         checkpoints/pretrained_model.pth
 #+end_src
+
+* data
+https://pan.baidu.com/s/1lkF50WdG6vWCnj1TAw_LjA code: 9hks
